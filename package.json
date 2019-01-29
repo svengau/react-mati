@@ -1,6 +1,6 @@
 {
   "name": "react-mati",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "React component to display the Mati button. Mati allows you to verify users identity online.",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
