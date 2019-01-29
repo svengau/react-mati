@@ -1,0 +1,48 @@
+{
+  "name": "react-mati",
+  "version": "0.0.0",
+  "description": "React component to display the Mati button. Mati allows you to verify users identity online.",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "jsnext:main": "dist/index.esm.js",
+  "umd": "dist/index.umd.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "prepublish": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/svengau/react-mati.git"
+  },
+  "keywords": [
+    "react",
+    "mati"
+  ],
+  "author": "Sven Gaubert",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/svengau/react-mati/issues"
+  },
+  "homepage": "https://github.com/svengau/react-mati#readme",
+  "dependencies": {
+    "react-load-script": "^0.0.6"
+  },
+  "peerDependencies": {
+    "react": ">=16.3.0",
+    "react-dom": ">=16.3.0"
+  },
+  "devDependencies": {
+    "@types/react": "^16.7.22",
+    "@types/react-dom": "^16.0.11",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "rollup": "^1.1.2",
+    "rollup-plugin-typescript2": "^0.19.2",
+    "typescript": "^3.2.4"
+  }
+}
