@@ -13,7 +13,7 @@ export class ReactMatiLoader extends React.Component<ReactMatiLoaderProps> {
   constructor(props: ReactMatiLoaderProps) {
     super(props);
     const documentScripts = document.getElementsByTagName('script');
-    this.loadScript = false;
+    this.loadScript = true;
     for (let i = 0; i < documentScripts.length; i += 1) {
       if (documentScripts[i].src.includes('https://sdk.getmati.com/mati-sdk.min.js')) {
         this.loadScript = false;

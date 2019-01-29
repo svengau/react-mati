@@ -68,7 +68,7 @@ export class ReactMati extends React.Component<Props, State> {
     let component = null;
     if (loadingStatus === 'errored') {
       component = errorElement || 'Error loading Mati';
-    } else {
+    } else if (loadingStatus === 'loading') {
       component = <ReactMatiLoader onLoad={this.onLoad} onError={this.onError} />;
     }
 
